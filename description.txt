@@ -1,0 +1,17 @@
+▼特徴量詳細
+
+ヘッダ名称               値例                                         データ型   説明
+--------------------------------------------------------------------------------------------
+id                      train_00000                                  str       データID（プロジェクトの識別子）
+name                    Homo Sapiens - A Species Gone Ape            str       プロジェクト名
+desc                    Homo Sapiens A Species Gone Ape, is a narr... str       プロジェクトの説明
+goal                    11250.0                                      float64   目標調達金額
+keywords                homo-sapiens-a-species-gone-ape              str       プロジェクトを表すキーワード群
+disable_communication   False                                        bool      支援者とのコミュニケーションを無効にしているかどうか
+country                 US                                           str       プロジェクト作成者の国
+currency                USD                                          str       目標金額の通貨単位
+deadline                1393531464                                   int64     資金調達期限（UNIXタイム形式）
+state_changed_at        1393531464                                   int64     プロジェクト状態が変更された日時（UNIXタイム形式）
+created_at              1388503014                                   int64     プロジェクトが投稿された日時（UNIXタイム形式）
+launched_at             1390939464                                   int64     プロジェクトが公開された日時（UNIXタイム形式）
+final_status            1                                            int64     プロジェクトが成功したかどうか（目的変数：1=成功、0=失敗）
